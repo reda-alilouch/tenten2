@@ -1,0 +1,61 @@
+@import url(style.css);
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+ 
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  position: relative;
+  margin: var(--header-height) 0 0 0;
+  padding: 16px 1rem;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  transition: 0.5s;
+  padding-right: 0;
+
+}
+.fa-solid {
+  transition: 0.25s;
+}
+.fa-solid :hover .fa-solid {
+  transform: scale(1.1);
+}
+.container{
+  --bs-gutter-x:0;
+}
+.top{
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: calc(var(--header-height) + 1rem) 0 0 0;
+    padding-left: var(--nav-width);
+  }
+}
+
+
+body.dark {
+  background-color: #292c35;
+} 
+
+body.dark h1,
+body.dark .support a {
+  color: #fff;
+}
+.body-pd {
+  padding-left: var(--nav-width-expanded);
+}
+a {
+  text-decoration: none;
+}

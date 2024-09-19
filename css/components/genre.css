@@ -1,0 +1,33 @@
+@import url(style.css);
+.genre {
+  width: 200px;
+  height: 180px;
+}
+.img-genre {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+}
+.h3-genre {
+  text-align: start;
+  margin-top: -25px;
+  
+}
+.genre:hover .img-genre   {
+  opacity: 0.6;
+}
+.icon-scroll{
+  display: flex;
+}
+.row-genre{
+  margin-top: 20px;
+}
+.icon-scroll{
+  justify-content: end;
+  gap: 10px;
+  padding-top: 10px;
+}
+.container-genre-home{
+  display: flex;
+  width: 200%;
+}

@@ -1,0 +1,22 @@
+:root {
+    --header-height: 3rem;
+    --nav-width: 68px;
+    --nav-width-expanded: 224px;
+    --first-color: #fbfaff;
+    --first-color-light: #a2a1a1;
+    --white-color: #ff4545;
+    --body-font: "Nunito", sans-serif;
+    --normal-font-size: 1rem;
+    --z-fixed: 100;
+    --primary-color: #ff4545;
+    --primary: #ff4545;
+    --light: #ffffff;
+    --dark: #000;
+    --background: #ff4545;
+    --navbar-width: 256px;
+    --navbar-width-min: 80px;
+    --navbar-dark-primary: #18283b;
+    --navbar-dark-secondary: #f0f0f0;
+    --navbar-light-primary: #ffffff;
+    --navbar-light-secondary: #8392a5;
+  }
