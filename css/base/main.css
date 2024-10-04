@@ -2,15 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 * {
   box-sizing: border-box;
- 
 }
-
+img {
+  object-fit: cover;
+}
 ::before,
 ::after {
   box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -22,7 +23,6 @@ body {
   font-size: var(--normal-font-size);
   transition: 0.5s;
   padding-right: 0;
-
 }
 .fa-solid {
   transition: 0.25s;
@@ -30,10 +30,10 @@ body {
 .fa-solid :hover .fa-solid {
   transform: scale(1.1);
 }
-.container{
-  --bs-gutter-x:0;
+.container {
+  --bs-gutter-x: 0;
 }
-.top{
+.top {
   padding-bottom: 40px;
 }
 
@@ -44,10 +44,9 @@ body {
   }
 }
 
-
 body.dark {
   background-color: #292c35;
-} 
+}
 
 body.dark h1,
 body.dark .support a {

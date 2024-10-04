@@ -5,14 +5,12 @@
 .head {
   display: flex;
   justify-content: space-between;
-  
 }
 .img-titre {
   height: 70px;
   width: 70px;
   border-radius: 5px;
   position: relative;
-  object-fit: cover;
 }
 .titre {
   display: flex;
@@ -21,8 +19,7 @@
   width: 300px;
   justify-content: space-between;
 }
-img{
-  object-fit: cover;
+img {
 }
 .img-h3 {
   display: flex;
@@ -47,7 +44,6 @@ h3 {
   margin-bottom: 0;
   justify-content: start;
 }
-
 
 .fa-heart,
 .fa-plus {
@@ -75,12 +71,12 @@ p {
 .titre:hover .my-icon {
   opacity: 1;
 }
-.titre__icon{
+.titre__icon {
   color: #ff4545;
 }
-.titre__icon:hover{
+.titre__icon:hover {
   transform: scale(1.1);
 }
-.row--albums{
+.row--albums {
   padding-bottom: 20px;
 }
