@@ -44,11 +44,7 @@
 
           <i class="fa-solid fa-magnifying-glass"></i>
         </form>
-        <div
-          class="btn-group"
-          role="group"
-          aria-label="Button group with nested dropdown"
-        >
+        <div class="btn-group">
           <div class="mode">
             <input type="checkbox" class="checkbox" id="checkbox" />
             <label for="checkbox" class="checkbox-label border">
@@ -57,11 +53,13 @@
               <span class="ball"></span>
             </label>
           </div>
-          <div class="dropdown">
-            <button onclick="toggleDropdown()" class="dropbtn">Menu</button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#">Option 2</a>
-              <a href="#">Option 3</a>
+          <div>
+            <button id="dropdown" class="btn btn-drop border">Français</button>
+            <div class="lang border mt-5" id="lang">
+              <ul>
+                <li>Français</li>
+                <li>English</li>
+              </ul>
             </div>
           </div>
           <div>
@@ -264,8 +262,8 @@
         <div class="head pb-5">
           <h2 class="text-xl">Top titres</h2>
         </div>
-        <div class="row sm:flex">
-          <div class="col">
+        <div class="row flex flex-wrap	">
+          <div class="col mt-5 ms-5">
             <div class="titre">
               <div class="img-h3">
                 <a href="#"
@@ -284,7 +282,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col mt-5 ms-5">
             <div class="titre">
               <div class="img-h3">
                 <a href="#"
@@ -303,65 +301,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="titre">
-              <div class="img-h3">
-                <a href="#"
-                  ><img class="img-titre" src="img/tape-6824489_960_720.jpg"
-                /></a>
-                <i class="my-icon fa-solid fa-play"></i>
-                <div class="h3">
-                  <h3>nom song</h3>
-                  <h3>nom artiste</h3>
-                </div>
-              </div>
-              <div class="icon-time">
-                <p>03:00</p>
-                <a href="#"><i class="titre__icon fa-solid fa-plus"></i></a>
-                <a href="#"><i class="titre__icon fa-solid fa-heart"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="titre">
-              <div class="img-h3">
-                <a href="#"
-                  ><img class="img-titre" src="img/tape-6824489_960_720.jpg"
-                /></a>
-                <i class="my-icon fa-solid fa-play"></i>
-                <div class="h3">
-                  <h3>nom song</h3>
-                  <h3>nom artiste</h3>
-                </div>
-              </div>
-              <div class="icon-time">
-                <p>03:00</p>
-                <a href="#"><i class="titre__icon fa-solid fa-plus"></i></a>
-                <a href="#"><i class="titre__icon fa-solid fa-heart"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="titre">
-              <div class="img-h3">
-                <a href="#"
-                  ><img class="img-titre" src="img/tape-6824489_960_720.jpg"
-                /></a>
-                <i class="my-icon fa-solid fa-play"></i>
-                <div class="h3">
-                  <h3>nom song</h3>
-                  <h3>nom artiste</h3>
-                </div>
-              </div>
-              <div class="icon-time">
-                <p>03:00</p>
-                <a href="#"><i class="titre__icon fa-solid fa-plus"></i></a>
-                <a href="#"><i class="titre__icon fa-solid fa-heart"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
+          <div class="col mt-5 ms-5">
             <div class="titre">
               <div class="img-h3">
                 <a href="#"
@@ -381,7 +321,7 @@
             </div>
           </div>
 
-          <div class="col">
+          <div class="col mt-5 ms-5">
             <div class="titre">
               <div class="img-h3">
                 <a href="#"
@@ -400,7 +340,65 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col mt-5 ms-5">
+            <div class="titre">
+              <div class="img-h3">
+                <a href="#"
+                  ><img class="img-titre" src="img/tape-6824489_960_720.jpg"
+                /></a>
+                <i class="my-icon fa-solid fa-play"></i>
+                <div class="h3">
+                  <h3>nom song</h3>
+                  <h3>nom artiste</h3>
+                </div>
+              </div>
+              <div class="icon-time">
+                <p>03:00</p>
+                <a href="#"><i class="titre__icon fa-solid fa-plus"></i></a>
+                <a href="#"><i class="titre__icon fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-5 ms-5">
+            <div class="titre">
+              <div class="img-h3">
+                <a href="#"
+                  ><img class="img-titre" src="img/tape-6824489_960_720.jpg"
+                /></a>
+                <i class="my-icon fa-solid fa-play"></i>
+                <div class="h3">
+                  <h3>nom song</h3>
+                  <h3>nom artiste</h3>
+                </div>
+              </div>
+              <div class="icon-time">
+                <p>03:00</p>
+                <a href="#"><i class="titre__icon fa-solid fa-plus"></i></a>
+                <a href="#"><i class="titre__icon fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mt-5 ms-5">
+            <div class="titre">
+              <div class="img-h3">
+                <a href="#"
+                  ><img class="img-titre" src="img/tape-6824489_960_720.jpg"
+                /></a>
+                <i class="my-icon fa-solid fa-play"></i>
+                <div class="h3">
+                  <h3>nom song</h3>
+                  <h3>nom artiste</h3>
+                </div>
+              </div>
+              <div class="icon-time">
+                <p>03:00</p>
+                <a href="#"><i class="titre__icon fa-solid fa-plus"></i></a>
+                <a href="#"><i class="titre__icon fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-5 ms-5">
             <div class="titre">
               <div class="img-h3">
                 <a href="#"
@@ -421,7 +419,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col mt-5 ms-5">
             <div class="titre">
               <div class="img-h3">
                 <a href="#"
@@ -887,5 +885,6 @@
     </div>
     <script src="js/aside.js"></script>
     <script src="js/traduire.js"></script>
+    <script src="api/api.js"></script>
   </body>
 </html>

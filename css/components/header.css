@@ -7,7 +7,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 2000;
+  z-index: 20000;
   left: 0;
   background-color: var(--first-color);
 }
@@ -23,7 +23,6 @@ nav {
   gap: 69px;
   justify-content: space-between;
   justify-content: end;
-  height: 140px;
   display: flex;
   align-items: center;
 }
@@ -70,18 +69,21 @@ form .fas {
 .btn-group {
   gap: 30px;
   display: flex;
+  height: 40px;
 }
 .btn {
   width: 160px;
   height: 40px;
   border-radius: 30px !important;
-  background-color:   var(--first-color);
+  background-color: var(--first-color);
   color: var(--dark);
   padding: 10px;
+  position: relative;
+  top: 0;
 }
 .fa-globe {
   left: 0;
-  top:5px;
+  top: 5px;
   color: var(--dark);
   font-size: 20px !important;
 }
@@ -93,50 +95,12 @@ form .fas {
 .bx {
   font-size: 28px;
 }
-.select {
-  position: relative;
-}
-/* Styles pour le bouton du menu déroulant */
-.dropbtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-/* Styles pour le bouton au survol */
-.dropbtn:hover {
-  background-color: #2980B9;
-}
-
-/* Styles pour le conteneur du menu déroulant */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Styles pour le contenu du menu déroulant (caché par défaut) */
-.dropdown-content {
+.lang {
+  width: 160px;
+  height: 80px;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: var(--first-color);
   display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
 }
-
-/* Styles pour les liens dans le menu déroulant */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Changement de couleur des liens au survol */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
