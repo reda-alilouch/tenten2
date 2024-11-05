@@ -50,7 +50,7 @@ nav {
   margin-bottom: 20px !important;
   width: 500px !important;
   padding: 8px;
-  border: solid;
+  border: 0.5px solid;
 }
 form .fa-solid,
 form .fas {
@@ -77,9 +77,7 @@ form .fas {
   border-radius: 30px !important;
   background-color: var(--first-color);
   color: var(--dark);
-  padding: 10px;
-  position: relative;
-  top: 0;
+
 }
 .fa-globe {
   left: 0;
@@ -103,4 +101,8 @@ form .fas {
   text-align: center;
   background-color: var(--first-color);
   display: none;
+  
+}
+.form-control:focus{
+  border: none;
 }
