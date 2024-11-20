@@ -1,0 +1,18 @@
+@import url(base/main.css);
+@import url(variables/colors.css);
+/* compnents */
+@import url(components/header.css);
+@import url(components/aside.css);
+@import url(components/carousel.css);
+@import url(components/toggle_darkmode.css);
+@import url(components/title.css);
+@import url(components/albums.css);
+@import url(components/album.css);
+@import url(components/artists.css);
+@import url(components/genre.css);
+@import url(components/audio.css);
+@import url(components/playlists.css);
+@import url(components/filter.css);
+@import url(components/artist.css);
+@import url(components/abonné.css);
+@import url(components/carousel.css);

@@ -1,0 +1,23 @@
+@import url(style.css);
+.artistes {
+  height: 230px;
+  width: 200px;
+}
+.img-artistes {
+  height: 200px;
+  width: 200px;
+  border-radius: 180px;
+
+  transition: 0.25s;
+}
+.h3-artistes {
+  text-align: center;
+  margin-top: 10px;
+}
+.col-artistes:hover .img-artistes {
+  transform: scale(1.1);
+}
+
+.container1 {
+  margin-bottom: 35px;
+}

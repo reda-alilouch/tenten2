@@ -1,0 +1,78 @@
+@import url(style.css);
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+.aside_toggle {
+  color: var(--first-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--primary-color);
+  margin-left: 27px;
+}
+.l-sidebar {
+  position: fixed;
+  width: var(--nav-width);
+  height: 100vh;
+  background-color: var(--first-color);
+  transition: 0.5s;
+  z-index: var(--z-fixed);
+}
+.side {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+ul {
+  list-style: none;
+}
+.side_link {
+  align-items: center;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  position: relative;
+  color: var(--first-color-light);
+  margin-bottom: 1.5rem;
+  transition: 0.3s;
+}
+
+.side_link.active {
+  color: var(--white-color);
+}
+.side_link.active::before {
+  position: absolute;
+  left: 0;
+  width: 2px;
+  height: 32px;
+  background-color: var(--white-color);
+}
+
+.side_link:hover {
+  color: var(--white-color);
+}
+
+.shows {
+  left: 0;
+}
+
+.height-100 {
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .aside {
+    height: calc(var(--header-height) + 1rem);
+  }
+  .aside_img {
+    width: 40px;
+    height: 40px;
+  }
+  .aside_img img {
+    width: 45px;
+  }
+  .l-sidebar {
+    left: 0;
+
+    top: calc(var(--header-height) + 2rem);
+  }
+  .shows {
+    width: calc(var(--nav-width) + 156px);
+  }
+}
