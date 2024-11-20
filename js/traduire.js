@@ -1,4 +1,3 @@
-
 var dropdown=document.getElementById("dropdown")
 var lang=document.getElementById("lang")
 dropdown.addEventListener('click',function(){

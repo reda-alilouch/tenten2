@@ -79,13 +79,14 @@ form .fas {
   color: var(--dark);
 
 }
-.fa-globe {
+.bx-globe {
+  position: absolute;
   left: 0;
   top: 5px;
   color: var(--dark);
   font-size: 20px !important;
 }
-.fa-chevron-down {
+.bx-chevron-down{
   top: 5px;
   right: 0;
   color: var(--dark);
